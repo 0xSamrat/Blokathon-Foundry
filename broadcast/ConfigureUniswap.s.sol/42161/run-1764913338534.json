@@ -1,0 +1,88 @@
+{
+  "transactions": [
+    {
+      "hash": "0x9fd44239dc95ebded7135ea74ee053bc5b9d6c8055000360f196476c64d951a3",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+      "function": "setSwapRouter(address)",
+      "arguments": [
+        "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+      ],
+      "transaction": {
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+        "gas": "0x104e6",
+        "value": "0x0",
+        "input": "0x41273657000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564",
+        "nonce": "0x3764",
+        "chainId": "0xa4b1"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x3b054537be492a499f43564841ac1ea2647f8d58b037d58701c951e0fa38423e",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+      "function": "setNonfungiblePositionManager(address)",
+      "arguments": [
+        "0xC36442b4a4522E871399CD717aBDD847Ab11FE88"
+      ],
+      "transaction": {
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+        "gas": "0x12453",
+        "value": "0x0",
+        "input": "0xcb8451ef000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
+        "nonce": "0x3765",
+        "chainId": "0xa4b1"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0xc748",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x9fd44239dc95ebded7135ea74ee053bc5b9d6c8055000360f196476c64d951a3",
+      "transactionIndex": "0x0",
+      "blockHash": "0x8f4681f97b76b78d0513969506a5037fb2628ea514fc9715616657c5d76bd367",
+      "blockNumber": "0x18471943",
+      "gasUsed": "0xc748",
+      "effectiveGasPrice": "0x1",
+      "blobGasPrice": "0x1",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "to": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+      "contractAddress": null
+    },
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0xc7e2",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x3b054537be492a499f43564841ac1ea2647f8d58b037d58701c951e0fa38423e",
+      "transactionIndex": "0x0",
+      "blockHash": "0xe585d61e2655104d0248962d268775f351cccb1388e98d9cc724520f8a894b32",
+      "blockNumber": "0x18471944",
+      "gasUsed": "0xc7e2",
+      "effectiveGasPrice": "0x1",
+      "blobGasPrice": "0x1",
+      "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "to": "0x3a896e38c476ad3b375595fa9334afe7238fb2d1",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1764913338534,
+  "chain": 42161,
+  "commit": "7571231"
+}
